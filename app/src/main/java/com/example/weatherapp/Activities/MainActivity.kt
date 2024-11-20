@@ -122,6 +122,7 @@ class MainActivity : AppCompatActivity() {
     // Method to get current location using the FusedLocationProviderClient
     private fun getcurrentLocation() {
         if (checkPermissions()) {
+            //he he
             if (isLocationEnabled()) {
                 // If location permissions are granted, fetch the last known location
                 if (ActivityCompat.checkSelfPermission(
